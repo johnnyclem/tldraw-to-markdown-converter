@@ -1,0 +1,21 @@
+{
+  "name": "tldraw-to-markdown-converter",
+  "version": "1.0.0",
+  "description": "A package to convert tldraw canvas to structured markdown and vice versa",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@tldraw/tldraw": "^2.0.0",
+    "gray-matter": "^4.0.3"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0"
+  },
+  "author": "John Clem",
+  "license": "MIT"
+}
